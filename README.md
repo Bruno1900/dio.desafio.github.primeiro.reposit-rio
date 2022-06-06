@@ -1,2 +1,7 @@
-# dio.desafio.github.primeiro.reposit-rio
-meu primeiro repositório com a dio.me sobre github
+# Primeiro desafio de git/github feito com a DIO
+meu primeiro repositório com a dio sobre github
+
+## links úteis
+[sintaxe basica sobre markdown](https://www.markdownguide.org/)
+
+
