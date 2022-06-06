@@ -1,0 +1,1 @@
+o git bash é um terminal que otimiza o uso do terminal e é muito eficiente em varios requisitos do desenvolvimento do sistema.
