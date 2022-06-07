@@ -1,1 +1,42 @@
-o git bash é um terminal que otimiza o uso do terminal e é muito eficiente em varios requisitos do desenvolvimento do sistema.
+- o git bash é um terminal que otimiza o uso do terminal e é muito eficiente em varios requisitos do desenvolvimento do sistema.
+
+PRINCIPAIS COMANDOS DO GIT
+
+.git config -–list » Lista as configurações do Git, se estiver dentro do repositório, lista mais itens
+.git config -–global user.name "Meu Nome" » Define o nome de usuário para o Git
+.git config -–global user.email "email@dominio.com" » Define o e-mail de usuário para o Git (tem de ser o cadastrado no GitHub)
+.git config -–global core.editor vim » Define o editor de texto padrão para abrir automaticamente arquivos informados pelo Git
+.git init » Inicializa um repositório Git
+.git status » Vê o estado atual do projeto
+.git add arquivo.txt » Adiciona o arquivo arquivo.txt ao projeto
+
+OPÇÕES AVANÇADAS
+
+.git commit -m "Minhas mudanças efetuadas" » Armazena as mudanças efetuadas e descreve o que foi alterado
+.git log » Mostra todas as mudanças que já foram efetuadas: commit, autor e data
+.git push -u origin master » Envia todos os arquivos modificados e “commitados” para o repositório no github
+.-u - faz com que o Git armazene esse comando e da próxima vez basta utilizarmos git push
+.origin- diz que o repositório no github possui o mesmo nome do projeto/diretório que você está enviando
+.master - é o nome da branch (indicador) Clique aqui para saber mais sobre branches
+.git pull origin master » Verifica as mudanças efetuadas por outros colaboradores do projeto
+.git diff HEAD » Verifica as partes dos arquivos alterados no último commit, veja mais opções em man git-diff
+.git reset arquivo.txt » Remove um arquivo do projeto
+.git checkout – arquivo.txt » Desfaz a última alteração feita num arquivo
+.git rm "*.txt" » Remove 1 ou mais arquivos utilizando “curinga”
+.git clone https://github.com/user/project.git » Copia um projeto pro seu PC
+.info git » Obtém a Documentação do git
+.man git » Obtém o Manual do git
+
+- você pode tambem clonar projetos de outras pessoas para poder fazer  seu proprio aprimoramento.
+
+SEGURANÇA DO GIT
+
+.Segurança O GIT também é um dos VCS mais seguros do mercado. Nele todo o conteúdo dos códigos, assim como a relação entre os diferentes arquivos, diretórios, versões e tags são criptograficamente protegidos por um algoritmo de hashing chamado SHA1.
+
+SEGURANÇA DO GITHUB
+
+.o GitHub tem um longo histórico de proteção de desenvolvedores por meio de esforços incluindo busca e invalidação de senhas de usuários comprometidas, oferecendo suporte robusto a chaves de segurança WebAuthn e registrando todos os editores npm na verificação de login aprimorada.
+
+CONSIDERAÇÕES FINAIS 
+
+. o git/github é uma ótima ferramenta para poder criar e compartilhar projetos com equipes ou ate mesmo por hoobie. isso pode ser mutio útil para a vida e para o mundo profissional no mundo de desenvolvimento de sistemas. 
